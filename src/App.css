@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+
+  body {
+    background-image: linear-gradient(to right,blue, rgb(75, 152, 216));
+  }
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+
+}
+
+.nav select{
+  text-align: center;
+  background-color: blue;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
+
+.nav input{
+  background-color: rgb(105, 139, 231);
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px;
+  margin-left: -40px
+
+}
+.container{
+  background-color: white;
+  height: 70vh;
+  width: 30vw;
+  border-radius: 10px;
+}
+
+.todocontainer{
+  display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-around;
+    margin-top: 30px;
+  
+}
+.workingcontainer{
+  background-color: white;
+  height: 70vh;
+  width: 30vw;
+  border-radius: 10px;
+}
+.completedContainer{
+  background-color: white;
+  height: 70vh;
+  width: 30vw; 
+  border-radius: 10px;
+}
+h2{
+  padding: 10px;
+  text-align: center;
+}
+
+.todo input{
+  padding: 10px;
+  margin-left: 40px;
+  width: 50%;
+}
+
+.todo{
+display: flex;
+justify-content: center;
+}
+.todolist ul li{ 
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+ button{
+  background-color: rgb(133, 167, 240);
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+ button:hover{
+  background-color: blue;
+}
+
+li{
+  margin: 15px;
+list-style: none;
+}
+.heading{
+  padding: 30px;
+  text-align: center;
+font-style: bold;
+font-weight: 800;
+font-size: large;
+  color: blue;
+}
